@@ -31,4 +31,4 @@ function keysDetector(e) {
 }
 
 window.addEventListener('keyup', keysDetector);
-window.onclick = () => { alert("hehehehhehehehehhehehehehhe");}
+window.onclick = () => { alert("hehehehhehehehehhehehehehhe you clicked it bad child");}
