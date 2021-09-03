@@ -18,7 +18,7 @@ function keysDetector(e) {
 
   if (JSON.stringify(keys) === JSON.stringify(secretCode)) {
 		secretDiv.style.display = "block";
-		text.innerHTML = "Identity Verified!"
+		text.innerHTML = "Identity Verified! <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click here to claim prize</a>"
 		confetti.render();
 		anime({
 			targets: 'body',
