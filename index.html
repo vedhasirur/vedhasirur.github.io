@@ -1,26 +1,88 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	<meta name="viewport" content="width=device-width">
-	<meta charset="UTF-8">
-	<title> A GREAT WEBSITE</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://cutt.ly/anime_js"></script>
-	</script>
-	<script src="index.min.js"></script>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedha Sirur - Personal Website</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Welcome</h1>
-<p> </p>
-	<canvas id="my-canvas"></canvas>
-	<h1 class='text'></h1>
+<header>
+    <div class="header-content">
+        <h1>Vedha Sirur</h1>
+    </div>
+</header>
 
-		<h1>h</h1>
-    <img src="" />
-	</div>
-	<script src="script.js"></script>
+<div class="container">
+
+    <section class="about-section colorful-box yellow-box">
+        <h2>👋 Hello, I'm Vedha!</h2>
+        <p>I'm a senior at Elkins High School, passionate about computing and technology. I love to play the cello 🎻, hang out with friends, and volunteer in my community. Welcome to my personal space on the web!</p>
+    </section>
+
+    <section class="carousel-section colorful-box orange-box">
+        <div class="carousel">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <img id="carousel-img" src="https://via.placeholder.com/400x250?text=Project+Image+1" alt="Project Image">
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="carousel-text">
+            <h3 class="highlight">🌟 Space City Hacks Hackathon</h3>
+            <p>I founded a hackathon to promote computer science. You can check out the website <a href="https://spacecityhacks.com">here</a> and watch recordings on the YouTube channel!</p>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <h2>💻 My Projects</h2>
+
+        <div class="project colorful-box pink-box">
+            <div class="project-text">
+                <h3 class="highlight">🌍 Woman World</h3>
+                <p>Coded in Swift using Xcode to empower women through technology.</p>
+            </div>
+            <img src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift Logo">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"></iframe>
+        </div>
+
+        <div class="project colorful-box blue-box">
+            <div class="project-text">
+                <h3 class="highlight">🌱 Plant Water Monitoring System</h3>
+                <p>A project coded in Swift to automate plant watering.</p>
+            </div>
+            <img src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift Logo">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"></iframe>
+        </div>
+
+   
+        <div class="project colorful-box green-box">
+            <div class="project-text">
+                <h3 class="highlight">🔍 Diabetes Predictor</h3>
+                <p>A machine learning project that predicts the likelihood of diabetes based on medical data inputs. Built using Python and Scikit-learn.</p>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Diabetes_symbol.svg/1024px-Diabetes_symbol.svg.png" alt="Diabetes Symbol" style="width: 60px;">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_3"></iframe>
+        </div>
+
+    
+        <div class="project colorful-box purple-box">
+            <div class="project-text">
+                <h3 class="highlight">💡 Arduino Light Showcase</h3>
+                <p>This project uses Arduino to create an interactive light display with RGB LEDs. Built using C++ and Arduino libraries.</p>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino Logo" style="width: 60px;">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_4"></iframe>
+        </div>
+
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 Vedha Sirur
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
-
