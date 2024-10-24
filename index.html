@@ -18,8 +18,9 @@
     <section class="about-section colorful-box yellow-box">
         <h2>👋 Hello, I'm Vedha!</h2>
         <p>I'm a senior at Elkins High School, passionate about computing and technology. 
-        I love to play the cello 🎻, hang out with friends, and volunteer in my community. 
-        Welcome to my personal space on the web!</p>
+            I love to play the cello 🎻, hang out with friends, and volunteer in my community. 
+            Welcome to my personal space on the web!
+        </p>
     </section>
 
     <section class="carousel-section colorful-box orange-box">
@@ -31,7 +32,8 @@
         <div class="carousel-text">
             <h3 class="highlight">🌟 Space City Hacks Hackathon</h3>
             <p>I founded a hackathon to promote computer science. You can check out the website 
-            <a href="https://spacecityhacks.com">here</a> and watch recordings on the YouTube channel!</p>
+                <a href="https://spacecityhacks.com">here</a> and watch recordings on the YouTube channel!
+            </p>
         </div>
     </section>
 
@@ -44,7 +46,11 @@
                 <p>Coded in Swift using Xcode to empower women through technology.</p>
             </div>
             <img src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift Logo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g4CEh2-0n5U?si=StsNQvyVTJOdMCGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g4CEh2-0n5U?si=StsNQvyVTJOdMCGw" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </div>
 
         <div class="project colorful-box blue-box">
@@ -53,14 +59,21 @@
                 <p>A project coded in Swift to automate plant watering.</p>
             </div>
             <img src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift Logo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture" allowfullscreen>
+            </iframe>
         </div>
 
         <div class="project colorful-box green-box">
             <div class="project-text">
                 <h3 class="highlight">🔍 Diabetes Predictor</h3>
-                <p>A machine learning project that predicts the likelihood of diabetes based on medical data inputs. Built using Python and Scikit-learn.</p>
-                <p>Check it out here: <a href="https://colab.research.google.com/drive/1rTxv_r7JJxLmc-RnR7ZxwOEsS9xPUDoq?usp=sharing">Colab Notebook</a></p>
+                <p>A machine learning project that predicts the likelihood of diabetes based on medical data inputs. 
+                    Built using Python and Scikit-learn.
+                </p>
+                <p>Check it out here: <a href="https://colab.research.google.com/drive/1rTxv_r7JJxLmc-RnR7ZxwOEsS9xPUDoq?usp=sharing">
+                    Colab Notebook</a>
+                </p>
                 <p>I am currently working on a research paper based on this project.</p>
             </div>
         </div>
@@ -68,10 +81,17 @@
         <div class="project colorful-box purple-box">
             <div class="project-text">
                 <h3 class="highlight">💡 Arduino Light Showcase</h3>
-                <p>This project uses Arduino to create a light display with RGB LEDs. Built using C++ and Arduino with my team at the UT Austin Academy for Women.</p>
+                <p>This project uses Arduino to create a light display with RGB LEDs. Built using C++ and Arduino with my 
+                    team at the UT Austin Academy for Women.
+                </p>
             </div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino Logo" style="width: 60px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1548LZW5W8Q?si=L8KVV2YdK--SWO1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" 
+                 alt="Arduino Logo" style="width: 60px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1548LZW5W8Q?si=L8KVV2YdK--SWO1b" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </div>
 
     </section>
@@ -81,7 +101,25 @@
     &copy; 2024 Vedha Sirur
 </footer>
 
-<script src="script.js"></script>
+<script>
+    let currentImageIndex = 0;
+    const images = [
+        "spacecity.png", 
+        "https://via.placeholder.com/400x250?text=Project+Image+1",
+        "https://via.placeholder.com/400x250?text=Project+Image+2",
+        "https://via.placeholder.com/400x250?text=Project+Image+3"
+    ];
+
+    function nextSlide() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        document.getElementById('carousel-img').src = images[currentImageIndex];
+    }
+
+    function prevSlide() {
+        currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+        document.getElementById('carousel-img').src = images[currentImageIndex];
+    }
+</script>
 
 </body>
 </html>
