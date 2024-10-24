@@ -87,9 +87,12 @@ header h1 {
 }
 
 .carousel img {
-    width: 100%;
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    image-rendering: crisp-edges;
 }
 
 .carousel button {
