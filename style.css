@@ -32,48 +32,50 @@ header h1 {
     padding: 20px;
 }
 
-/* Colorful Boxes */
+/* Colorful Boxes with Burnt Orange Theme */
 .colorful-box {
     padding: 50px;
     border-radius: 20px;
     margin-bottom: 40px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
 }
 
+/* Updated Color Scheme */
 .yellow-box {
-    background-color: #FFE69A;
+    background-color: #FFE5B4; /* Light Burnt Orange */
 }
 
 .orange-box {
-    background-color: #FFD1A9;
+    background-color: #FFD1A9; /* Soft Burnt Orange */
 }
 
 .pink-box {
-    background-color: #FFB3C6;
+    background-color: #FFCBA4; /* Peachy Orange */
 }
 
 .blue-box {
-    background-color: #B3E5FF;
+    background-color: #FFB07C; /* Warm Orange */
 }
 
 .green-box {
-    background-color: #B4F8C8;
+    background-color: #FFA474; /* Muted Burnt Orange */
 }
 
 .purple-box {
-    background-color: #D1B3FF;
+    background-color: #FF8C42; /* Vibrant Burnt Orange */
 }
 
 /* Typography */
 h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #BF5700;
     text-align: center;
 }
 
 h3 {
     font-size: 2rem;
-    color: #333;
+    color: #BF5700;
     margin-bottom: 20px;
 }
 
@@ -108,7 +110,7 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(191, 87, 0, 0.7);
     color: white;
     border: none;
     font-size: 2rem;
@@ -183,7 +185,7 @@ p {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FF6347;
+    background-color: #BF5700;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
