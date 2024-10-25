@@ -1,118 +1,134 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedha Sirur - Personal Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
 body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #FFF4E6;
+@@ -17,30 +7,32 @@ body {
     color: #333;
 }
 
-
 header {
+    background: linear-gradient(135deg, #BF5700, #D9823B); 
     background: linear-gradient(135deg, #BF5700, #D9823B);
     padding: 60px 20px;
+    margin: 40px auto; 
+    max-width: 1100px; 
     margin: 40px auto;
     max-width: 1100px;
     text-align: center;
+    border-radius: 20px; 
     border-radius: 20px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-size: 4.5rem;
+    color: white; 
     color: white;
     letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Container */
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
-
+/* Colorful Boxes */
 .colorful-box {
     padding: 50px;
-    border-radius: 20px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    color: #333;
+    text-align: center;
+@@ -50,35 +42,41 @@ header h1 {
 }
 
-
 .yellow-box {
-    background-color: #FFE5B4; 
+    background-color: #FFE69A; 
+    background-color: #FFE69A;
 }
 
 .orange-box {
     background-color: #FFD1A9; 
+    background-color: #FFD1A9;
 }
 
 .pink-box {
-    background-color: #FFCBA4; 
+    background-color: #FFB3C6;
 }
 
 .blue-box {
-    background-color: #FFB07C; 
+    background-color: #B3E5FF; 
+    background-color: #B3E5FF;
 }
 
 .green-box {
-    background-color: #FFA474; 
+    background-color: #B4F8C8;
 }
 
 .purple-box {
-    background-color: #FF8C42; 
+    background-color: #D1B3FF; 
+    background-color: #D1B3FF;
 }
 
+.about-section h2, .carousel-text h3, .project-text h3 {
 /* Typography */
 h2 {
     font-size: 2.5rem;
-    color: #BF5700;
-    text-align: center;
+    color: #333;
 }
 
+.about-section p, .carousel-text p, .project-text p {
 h3 {
     font-size: 2rem;
-    color: #BF5700;
-    margin-bottom: 20px;
+    color: #333;
 }
-
 p {
     font-size: 1.2rem;
     color: #555;
 }
-
-/* Carousel Section */
-.carousel-section {
+@@ -88,22 +86,23 @@ header h1 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .carousel {
+    display: flex;
+    align-items: center;
     position: relative;
+    width: 50%;
     width: 100%;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .carousel img {
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
     width: 100%;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    image-rendering: crisp-edges;
 }
 
 .carousel button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(191, 87, 0, 0.7);
+@@ -113,53 +112,56 @@ header h1 {
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     border: none;
+    font-size: 1.5rem;
     font-size: 2rem;
     padding: 10px;
     cursor: pointer;
@@ -120,14 +136,17 @@ p {
 }
 
 .carousel button.prev {
+    left: -20px;
     left: -30px;
 }
 
 .carousel button.next {
+    right: -20px;
     right: -30px;
 }
 
 .carousel-text {
+    width: 45%;
     width: 100%;
     margin-top: 20px;
 }
@@ -135,75 +154,50 @@ p {
 /* Projects Section */
 .projects-section h2 {
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #BF5700;
     text-align: center;
 }
 
+/* Project Boxes */
 .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
     margin-bottom: 30px;
 }
 
-.project-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 .project-text {
-    flex: 1 1 45%;
-    margin-right: 20px;
+    text-align: left;
+}
+.project img {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+    margin: 20px 0;
 }
 
-.project-media {
-    flex: 1 1 45%;
+.project iframe {
+    width: 50%;
+    height: 200px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
-.project-media iframe, .project-media img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.project-media iframe {
-    max-width: 560px;
-    height: 315px;
-}
-
 /* Underline animation for h3 */
-.highlight {
-    position: relative;
-    display: inline-block;
-}
-
-.highlight::after {
-    content: "";
-    position: absolute;
-    width: 100%;
+@@ -175,7 +177,7 @@ header h1 {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #BF5700;
+    background-color: #FF6347; 
+    background-color: #FF6347;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-}
-
-.highlight:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-/* Footer */
-footer {
-    background-color: #BF5700;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    font-size: 1rem;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-}
