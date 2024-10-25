@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
     background: linear-gradient(135deg, #BF5700, #D9823B);
     padding: 60px 20px;
@@ -32,7 +32,7 @@ header h1 {
     padding: 20px;
 }
 
-/* Colorful Boxes with Burnt Orange Theme */
+
 .colorful-box {
     padding: 50px;
     border-radius: 20px;
@@ -41,29 +41,29 @@ header h1 {
     color: #333;
 }
 
-/* Updated Color Scheme */
+
 .yellow-box {
-    background-color: #FFE5B4; /* Light Burnt Orange */
+    background-color: #FFE5B4; 
 }
 
 .orange-box {
-    background-color: #FFD1A9; /* Soft Burnt Orange */
+    background-color: #FFD1A9; 
 }
 
 .pink-box {
-    background-color: #FFCBA4; /* Peachy Orange */
+    background-color: #FFCBA4; 
 }
 
 .blue-box {
-    background-color: #FFB07C; /* Warm Orange */
+    background-color: #FFB07C; 
 }
 
 .green-box {
-    background-color: #FFA474; /* Muted Burnt Orange */
+    background-color: #FFA474; 
 }
 
 .purple-box {
-    background-color: #FF8C42; /* Vibrant Burnt Orange */
+    background-color: #FF8C42; 
 }
 
 /* Typography */
