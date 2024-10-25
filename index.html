@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Vedha Sirur - Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+    <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@400;700&display=swap">
-  
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,6 +18,7 @@
 </header>
 
 <div class="container">
+    <!-- About Section -->
     <section class="about-section colorful-box yellow-box">
         <h2>👋 Hello, I'm Vedha!</h2>
         <p>I'm a senior at Elkins High School, passionate about computing and engineering technology.</p>
@@ -27,6 +28,7 @@
         </p>
     </section>
 
+    <!-- Carousel Section -->
     <section class="carousel-section colorful-box orange-box">
         <div class="carousel">
             <button class="prev" onclick="prevSlide()">&#10094;</button>
@@ -41,77 +43,101 @@
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section class="projects-section">
         <h2>💻 My Projects</h2>
 
+        <!-- Project 1 -->
         <div class="project colorful-box pink-box">
-            <div class="project-text">
-                <h3 class="highlight">🌍 Woman World</h3>
-                <p>Coded in Swift using Xcode to empower women through technology.</p>
+            <div class="project-content">
+                <div class="project-text">
+                    <h3 class="highlight">🌍 Woman World</h3>
+                    <p>Coded in Swift using Xcode to empower women through technology.</p>
+                </div>
+                <div class="project-media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/g4CEh2-0n5U?si=StsNQvyVTJOdMCGw"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                            encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-            <img src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift Logo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/g4CEh2-0n5U?si=StsNQvyVTJOdMCGw"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                    encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
         </div>
 
+        <!-- Project 2 -->
         <div class="project colorful-box purple-box">
-            <div class="project-text">
-                <h3 class="highlight">⚡ Ohm My! Electricity Website</h3>
-                <p>
-                    I am currently enrolled in AP Physics II and it is my favorite class.
-                    I love the process of assembling circuits from scratch in our labs as it challenges me to think critically and creatively.
-                    I was inspired to create a website to learn all about the basics of electricity and circuits with quizzes to test your knowledge.
-                </p>
+            <div class="project-content">
+                <div class="project-text">
+                    <h3 class="highlight">⚡ Ohm My! Electricity Website</h3>
+                    <p>
+                        I am currently enrolled in AP Physics II and it is my favorite class.
+                        I love the process of assembling circuits from scratch in our labs as it challenges me to think critically and creatively.
+                        I was inspired to create a website to learn all about the basics of electricity and circuits with quizzes to test your knowledge.
+                    </p>
+                </div>
+                <div class="project-media">
+                    <!-- You can add an image or leave this section empty if there's no media -->
+                    <!-- <img src="your-image.jpg" alt="Ohm My! Electricity Website"> -->
+                </div>
             </div>
-            <img src="https://static-00.iconduck.com/assets.00/arduino-icon-2048x1397-pmu0lemh.png" alt="Logo">
         </div>
 
+        <!-- Project 3 -->
         <div class="project colorful-box blue-box">
-            <div class="project-text">
-                <h3 class="highlight">🌱 Plant Water Monitoring System</h3>
-                <p>A project coded in Swift to automate plant watering.</p>
+            <div class="project-content">
+                <div class="project-text">
+                    <h3 class="highlight">🌱 Plant Water Monitoring System</h3>
+                    <p>A project coded in Swift to automate plant watering.</p>
+                </div>
+                <div class="project-media">
+                    <!-- Replace 'YOUTUBE_VIDEO_ID_2' with the actual video ID -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                            picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-            <img src="https://static-00.iconduck.com/assets.00/arduino-icon-2048x1397-pmu0lemh.png" alt="Logo">
-            <!-- Replace 'YOUTUBE_VIDEO_ID_2' with the actual video ID -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                    picture-in-picture" allowfullscreen>
-            </iframe>
         </div>
 
+        <!-- Project 4 -->
         <div class="project colorful-box green-box">
-            <div class="project-text">
-                <h3 class="highlight">🔍 Diabetes Predictor</h3>
-                <p>
-                    A machine learning project that predicts the likelihood of diabetes based on medical data inputs.
-                    Built using Python and Scikit-learn.
-                </p>
-                <p>Check it out here:
-                    <a href="https://colab.research.google.com/drive/1rTxv_r7JJxLmc-RnR7ZxwOEsS9xPUDoq?usp=sharing">
-                        Colab Notebook</a>
-                </p>
-                <p>I am currently working on a research paper based on this project.</p>
+            <div class="project-content">
+                <div class="project-text">
+                    <h3 class="highlight">🔍 Diabetes Predictor</h3>
+                    <p>
+                        A machine learning project that predicts the likelihood of diabetes based on medical data inputs.
+                        Built using Python and Scikit-learn.
+                    </p>
+                    <p>Check it out here:
+                        <a href="https://colab.research.google.com/drive/1rTxv_r7JJxLmc-RnR7ZxwOEsS9xPUDoq?usp=sharing">
+                            Colab Notebook</a>
+                    </p>
+                    <p>I am currently working on a research paper based on this project.</p>
+                </div>
+                <div class="project-media">
+                    <!-- You can add an image or leave this section empty if there's no media -->
+                </div>
             </div>
         </div>
 
+        <!-- Project 5 -->
         <div class="project colorful-box purple-box">
-            <div class="project-text">
-                <h3 class="highlight">💡 Arduino Light Showcase</h3>
-                <p>
-                    This project uses Arduino to create a light display with RGB LEDs. Built using C++ and Arduino with my
-                    team at the UT Austin Academy for Women.
-                </p>
+            <div class="project-content">
+                <div class="project-text">
+                    <h3 class="highlight">💡 Arduino Light Showcase</h3>
+                    <p>
+                        This project uses Arduino to create a light display with RGB LEDs. Built using C++ and Arduino with my
+                        team at the UT Austin Academy for Women.
+                    </p>
+                </div>
+                <div class="project-media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1548LZW5W8Q?si=L8KVV2YdK--SWO1b"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                            encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
-            <img src="https://static-00.iconduck.com/assets.00/arduino-icon-2048x1397-pmu0lemh.png"
-                 alt="Arduino Logo" style="width: 60px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1548LZW5W8Q?si=L8KVV2YdK--SWO1b"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                    encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
         </div>
 
     </section>
