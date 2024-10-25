@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vedha Sirur - Personal Website</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:wght@400;700&display=swap">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<header>
 body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
@@ -17,22 +7,24 @@ body {
     color: #333;
 }
 
+
 header {
-    background: linear-gradient(135deg, #BF5700, #D9823B); 
+    background: linear-gradient(135deg, #BF5700, #D9823B);
     padding: 60px 20px;
-    margin: 40px auto; 
-    max-width: 1100px; 
+    margin: 40px auto;
+    max-width: 1100px;
     text-align: center;
-    border-radius: 20px; 
+    border-radius: 20px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-size: 4.5rem;
-    color: white; 
+    color: white;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 .container {
     max-width: 1100px;
@@ -40,7 +32,7 @@ header h1 {
     padding: 20px;
 }
 
-
+/* Colorful Boxes */
 .colorful-box {
     padding: 50px;
     text-align: center;
@@ -50,11 +42,11 @@ header h1 {
 }
 
 .yellow-box {
-    background-color: #FFE69A; 
+    background-color: #FFE69A;
 }
 
 .orange-box {
-    background-color: #FFD1A9; 
+    background-color: #FFD1A9;
 }
 
 .pink-box {
@@ -62,7 +54,7 @@ header h1 {
 }
 
 .blue-box {
-    background-color: #B3E5FF; 
+    background-color: #B3E5FF;
 }
 
 .green-box {
@@ -70,15 +62,21 @@ header h1 {
 }
 
 .purple-box {
-    background-color: #D1B3FF; 
+    background-color: #D1B3FF;
 }
 
-.about-section h2, .carousel-text h3, .project-text h3 {
+/* Typography */
+h2 {
     font-size: 2.5rem;
     color: #333;
 }
 
-.about-section p, .carousel-text p, .project-text p {
+h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
     font-size: 1.2rem;
     color: #555;
 }
@@ -88,22 +86,23 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .carousel {
     display: flex;
     align-items: center;
     position: relative;
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .carousel img {
-    width: 100%; 
-    height: auto; 
-    max-width: 600px; 
+    width: 100%;
+    height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    image-rendering: crisp-edges;
 }
 
 .carousel button {
@@ -113,24 +112,26 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     border: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
 }
 
 .carousel button.prev {
-    left: -20px;
+    left: -30px;
 }
 
 .carousel button.next {
-    right: -20px;
+    right: -30px;
 }
 
 .carousel-text {
-    width: 45%;
+    width: 100%;
+    margin-top: 20px;
 }
 
+/* Projects Section */
 .projects-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -138,28 +139,29 @@ header h1 {
     text-align: center;
 }
 
-/* Project Boxes */
 .project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 30px;
     border-radius: 20px;
     margin-bottom: 30px;
 }
 
+.project-text {
+    text-align: left;
+}
+
 .project img {
     width: 60px;
     height: auto;
-    margin-left: 20px;
+    margin: 20px 0;
 }
 
 .project iframe {
-    width: 50%;
-    height: 200px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
     border: none;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
 }
 
 /* Underline animation for h3 */
@@ -175,7 +177,7 @@ header h1 {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FF6347; 
+    background-color: #FF6347;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
