@@ -1,17 +1,9 @@
-
 body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #FFF4E6;
     color: #333;
-}
-.responsive-img {
-    width: 100%;
-    height: auto;   
-    max-width: 600px; 
-    display: block;  
-    margin: 0 auto;
 }
 
 header {
@@ -31,14 +23,12 @@ header h1 {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Container */
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Colorful Boxes */
 .colorful-box {
     padding: 50px;
     text-align: center;
@@ -71,7 +61,6 @@ header h1 {
     background-color: #D1B3FF;
 }
 
-/* Typography */
 h2 {
     font-size: 2.5rem;
     color: #333;
@@ -87,7 +76,6 @@ p {
     color: #555;
 }
 
-/* Carousel Section */
 .carousel-section {
     display: flex;
     justify-content: space-between;
@@ -137,7 +125,6 @@ p {
     margin-top: 20px;
 }
 
-/* Projects Section */
 .projects-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -155,10 +142,14 @@ p {
     text-align: left;
 }
 
-.project img {
-    width: 60px;
+.project-media img {
+    width: 100%;
     height: auto;
-    margin: 20px 0;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project iframe {
@@ -170,7 +161,6 @@ p {
     margin-top: 20px;
 }
 
-/* Underline animation for h3 */
 .highlight {
     position: relative;
     display: inline-block;
@@ -193,7 +183,6 @@ p {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
 
 footer {
     background-color: #BF5700;
