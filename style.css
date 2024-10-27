@@ -6,7 +6,13 @@ body {
     background-color: #FFF4E6;
     color: #333;
 }
-
+.responsive-img {
+    width: 100%;
+    height: auto;   
+    max-width: 600px; 
+    display: block;  
+    margin: 0 auto;
+}
 
 header {
     background: linear-gradient(135deg, #BF5700, #D9823B);
