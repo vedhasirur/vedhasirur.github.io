@@ -2,12 +2,12 @@ body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5;
+    background-color: #F8F8F8;
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #BF5700, #990000, #B3A369);
+    background: linear-gradient(135deg, #E3A857, #D98B75, #A1B3A1);
     padding: 60px 20px;
     margin: 40px auto;
     max-width: 1100px;
@@ -38,42 +38,51 @@ header h1 {
 }
 
 .yellow-box {
-    background-color: #FFCC00;
+    background-color: #F6E7C1;
+    color: #7C5C2A;
 }
 
 .orange-box {
-    background-color: #BF5700;
+    background-color: #F4D4B0;
+    color: #8A573B;
 }
 
 .pink-box {
-    background-color: #990000;
+    background-color: #F3C1C6;
+    color: #9B4A58;
 }
 
 .blue-box {
-    background-color: #003057;
+    background-color: #D7E3EA;
+    color: #3A5C6C;
 }
 
 .green-box {
-    background-color: #B3A369;
+    background-color: #CDE4D7;
+    color: #3A6653;
 }
 
 .purple-box {
-    background-color: #6A1B9A;
+    background-color: #D8C9E8;
+    color: #5A476A;
 }
 
 h2 {
     font-size: 2.5rem;
-    color: #BF5700;
+    color: #8B3A41;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 2rem;
-    color: #990000;
+    color: #8A4E58;
+    margin-bottom: 15px;
 }
 
 p {
     font-size: 1.2rem;
     color: #555;
+    line-height: 1.6;
 }
 
 .carousel-section {
@@ -103,10 +112,10 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     border: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
@@ -123,12 +132,12 @@ p {
 .carousel-text {
     width: 100%;
     margin-top: 20px;
+    color: #555;
 }
 
 .projects-section h2 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #003057;
+    color: #3A5C6C;
     text-align: center;
 }
 
@@ -136,10 +145,13 @@ p {
     padding: 30px;
     border-radius: 20px;
     margin-bottom: 30px;
+    background-color: #FFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .project-text {
     text-align: left;
+    color: #555;
 }
 
 .project-media img {
@@ -164,6 +176,7 @@ p {
 .highlight {
     position: relative;
     display: inline-block;
+    color: #8B3A41;
 }
 
 .highlight::after {
@@ -173,7 +186,7 @@ p {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FFCC00;
+    background-color: #F6E7C1;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
@@ -185,7 +198,7 @@ p {
 }
 
 footer {
-    background-color: #990000;
+    background-color: #8A4E58;
     color: white;
     text-align: center;
     padding: 20px;
