@@ -2,12 +2,12 @@ body {
     font-family: 'Patrick Hand', cursive, 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFF4E6;
+    background-color: #F5F5F5;
     color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #BF5700, #D9823B);
+    background: linear-gradient(135deg, #BF5700, #B31B1B, #B3A369);
     padding: 60px 20px;
     margin: 40px auto;
     max-width: 1100px;
@@ -38,37 +38,37 @@ header h1 {
 }
 
 .yellow-box {
-    background-color: #FFE69A;
+    background-color: #FFD700;
 }
 
 .orange-box {
-    background-color: #FFD1A9;
+    background-color: #FF9400;
 }
 
 .pink-box {
-    background-color: #FFB3C6;
+    background-color: #FF6347;
 }
 
 .blue-box {
-    background-color: #B3E5FF;
+    background-color: #003057;
 }
 
 .green-box {
-    background-color: #B4F8C8;
+    background-color: #A4C639;
 }
 
 .purple-box {
-    background-color: #D1B3FF;
+    background-color: #6A1B9A;
 }
 
 h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #BF5700;
 }
 
 h3 {
     font-size: 2rem;
-    color: #333;
+    color: #B31B1B;
 }
 
 p {
@@ -128,7 +128,7 @@ p {
 .projects-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #BF5700;
+    color: #003057;
     text-align: center;
 }
 
@@ -173,7 +173,7 @@ p {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FF6347;
+    background-color: #FFD700;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
@@ -185,7 +185,7 @@ p {
 }
 
 footer {
-    background-color: #BF5700;
+    background-color: #B31B1B;
     color: white;
     text-align: center;
     padding: 20px;
