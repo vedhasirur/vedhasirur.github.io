@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #BF5700, #B31B1B, #B3A369);
+    background: linear-gradient(135deg, #BF5700, #990000, #B3A369);
     padding: 60px 20px;
     margin: 40px auto;
     max-width: 1100px;
@@ -38,15 +38,15 @@ header h1 {
 }
 
 .yellow-box {
-    background-color: #FFD700;
+    background-color: #FFCC00;
 }
 
 .orange-box {
-    background-color: #FF9400;
+    background-color: #BF5700;
 }
 
 .pink-box {
-    background-color: #FF6347;
+    background-color: #990000;
 }
 
 .blue-box {
@@ -54,7 +54,7 @@ header h1 {
 }
 
 .green-box {
-    background-color: #A4C639;
+    background-color: #B3A369;
 }
 
 .purple-box {
@@ -68,7 +68,7 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    color: #B31B1B;
+    color: #990000;
 }
 
 p {
@@ -173,7 +173,7 @@ p {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #FFD700;
+    background-color: #FFCC00;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
@@ -185,7 +185,7 @@ p {
 }
 
 footer {
-    background-color: #B31B1B;
+    background-color: #990000;
     color: white;
     text-align: center;
     padding: 20px;
