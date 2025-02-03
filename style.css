@@ -50,7 +50,7 @@ header h1 {
 }
 
 .blue-box {
-    background-color: #003057;
+    background-color: #B3E5FF;
 }
 
 .green-box {
@@ -58,7 +58,7 @@ header h1 {
 }
 
 .purple-box {
-    background-color: #990000;
+    background-color: #D1B3FF;
 }
 
 h2 {
@@ -185,7 +185,7 @@ p {
 }
 
 footer {
-    background-color: #BF5700;
+    background-color: #990000;
     color: white;
     text-align: center;
     padding: 20px;
